@@ -1,4 +1,4 @@
-.debug {
+.container {
   background-color: pink;
 }
 
@@ -8,4 +8,9 @@
   text-align: center;
   line-height: 200px;
   vertical-align: middle;
+}
+
+.col-6 > .col-2 {
+  border-color: white;
+
 }
