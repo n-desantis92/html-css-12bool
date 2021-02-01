@@ -1,4 +1,11 @@
+.debug {
+  background-color: pink;
+}
+
 .debug [class*="col-"] {
   height: calc( 100vh / 5 );
   border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  vertical-align: middle;
 }
