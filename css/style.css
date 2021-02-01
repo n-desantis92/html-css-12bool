@@ -1,12 +1,22 @@
-.container {
+.row {
   background-color: pink;
 }
 
 .debug [class*="col-"] {
-  height: calc( 100vh / 5 );
   border: 1px solid black;
   text-align: center;
-  line-height: 200px;
   vertical-align: middle;
   padding: 5px;
+}
+
+.row .col-6 .row-white {
+  border-color: white;
+}
+
+
+.row-white .col-6,
+.row-white .col-2,
+.row-white .col-8 {
+  border: 1px solid white;
+  background-color: plum;
 }
