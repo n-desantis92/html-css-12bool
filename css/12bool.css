@@ -5,7 +5,7 @@
 }
 
 /* Regole Debug */
-.debug .container {
+.debug .row {
   border: 1px solid black;
 }
 
@@ -18,12 +18,12 @@
 
 /* Framework */
 
-  .container {
+  .row {
     max-width: 1170px;
     margin: 0 auto;
   }
 
-  .container::after {
+  .row::after {
     content: "";
     display: block;
     clear: both;
